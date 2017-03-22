@@ -16,3 +16,7 @@ The Storage Bits take
 Two standout conclusions from the study. First, that MLC drives are as reliable as the more costly SLC "enteprise" drives. This mirrors hard drive experience, where consumer SATA drives have been found to be as reliable as expensive SAS and Fibre Channel drives.
 One of the major reasons that "enterprise" SSDs are more expensive is due to greater over-provisioning. SSDs are over-provisioned for two main reasons: to allow for ample bad block replacement caused by flash wearout; and, to ensure that garbage collection does not cause write slowdowns. 
 The paper's second major conclusion, that age, not use, correlates with increasing error rates, means that over-provisioning for fear of flash wearout is not needed. None of the drives in the study came anywhere near their write limits, even the 3,000 writes specified for the MLC drives.
+
+But it isn't all good news. SSD UBER rates are higher than disk rates, which means that backing up SSDs is even more important than it is with disks. The SSD is less likely to fail during its normal life, but more likely to lose data. 
+I'll be digging deeper into the data this weekend. Stay tuned!
+By Robin Harris for Storage Bits | February 25, 2016 -- 13:15 GMT (05:15 PST) | Topic: Storage
