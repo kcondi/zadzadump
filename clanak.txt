@@ -1,6 +1,13 @@
 SSDs are a new phenomenon in the datacenter. We have theories about how they should perform, but until now, little data. That's just changed.
 The FAST 2016 paper Flash Reliability in Production: The Expected and the Unexpected, (the paper is not available online until Friday) by Professor Bianca Schroeder of the University of Toronto, and Raghav Lagisetty and Arif Merchant of Google, covers:
 •	Millions of drive days over 6 years 
-•	10 different drive models 
-•	3 different flash types: MLC, eMLC and SLC
 •	Enterprise and consumer drives
+
+Key conclusions
+•	Ignore Uncorrectable Bit Error Rate (UBER) specs. A meaningless number. 
+•	Good news: Raw Bit Error Rate (RBER) increases slower than expected from wearout and is not correlated with UBER or other failures. 
+•	High-end SLC drives are no more reliable that MLC drives. 
+•	Bad news: SSDs fail at a lower rate than disks, but UBER rate is higher (see below for what this means).
+•	SSD age, not usage, affects reliability. 
+•	Bad blocks in new SSDs are common, and drives with a large number of bad blocks are much more likely to lose hundreds of other blocks, most likely due to die or chip failure. 
+•	30-80 percent of SSDs develop at least one bad block and 2-7 percent develop at least one bad chip in the first four years of deployment.
