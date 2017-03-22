@@ -11,3 +11,8 @@ Key conclusions
 •	SSD age, not usage, affects reliability. 
 •	Bad blocks in new SSDs are common, and drives with a large number of bad blocks are much more likely to lose hundreds of other blocks, most likely due to die or chip failure. 
 •	30-80 percent of SSDs develop at least one bad block and 2-7 percent develop at least one bad chip in the first four years of deployment.
+
+The Storage Bits take
+Two standout conclusions from the study. First, that MLC drives are as reliable as the more costly SLC "enteprise" drives. This mirrors hard drive experience, where consumer SATA drives have been found to be as reliable as expensive SAS and Fibre Channel drives.
+One of the major reasons that "enterprise" SSDs are more expensive is due to greater over-provisioning. SSDs are over-provisioned for two main reasons: to allow for ample bad block replacement caused by flash wearout; and, to ensure that garbage collection does not cause write slowdowns. 
+The paper's second major conclusion, that age, not use, correlates with increasing error rates, means that over-provisioning for fear of flash wearout is not needed. None of the drives in the study came anywhere near their write limits, even the 3,000 writes specified for the MLC drives.
